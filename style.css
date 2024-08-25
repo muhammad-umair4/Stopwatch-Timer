@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.Time-watch {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.switch {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.switch button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.switch button:hover {
+    background-color: #0056b3;
+}
+
+.count .counter {
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    border: 3px solid #007bff;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    background-color: #f0f4f8;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.addbtn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.addbtn button {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.addbtn button:hover {
+    background-color: #138496;
+}
+
+.funcbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.funcbtn button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.funcbtn button.stop {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.funcbtn button.reset {
+    background-color: #dc3545;
+}
+
+.funcbtn button:hover {
+    opacity: 0.9;
+}
